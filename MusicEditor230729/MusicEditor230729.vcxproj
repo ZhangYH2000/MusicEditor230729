@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="app_item.h" />
+    <ClInclude Include="app_wv.h" />
+    <ClInclude Include="bgr.h" />
+    <ClInclude Include="bra.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="checkbox.h" />
+    <ClInclude Include="complex.h" />
+    <ClInclude Include="control.h" />
+    <ClInclude Include="ctrl_def.h" />
+    <ClInclude Include="ctrl_list.h" />
+    <ClInclude Include="cur.h" />
+    <ClInclude Include="dragbar.h" />
+    <ClInclude Include="draw_comp.h" />
+    <ClInclude Include="draw_geo.h" />
+    <ClInclude Include="draw_px_seg.h" />
+    <ClInclude Include="draw_str.h" />
+    <ClInclude Include="draw_tile.h" />
+    <ClInclude Include="droplist.h" />
+    <ClInclude Include="drum.h" />
+    <ClInclude Include="dvec.h" />
+    <ClInclude Include="env.h" />
+    <ClInclude Include="expr.h" />
+    <ClInclude Include="filter.h" />
+    <ClInclude Include="float_panel.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="fpn_about.h" />
+    <ClInclude Include="fpn_cmd.h" />
+    <ClInclude Include="fpn_fun.h" />
+    <ClInclude Include="fpn_global.h" />
+    <ClInclude Include="fpn_inst.h" />
+    <ClInclude Include="fpn_lang.h" />
+    <ClInclude Include="fpn_par.h" />
+    <ClInclude Include="fpn_track.h" />
+    <ClInclude Include="fx.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="inst.h" />
+    <ClInclude Include="label.h" />
+    <ClInclude Include="lfo.h" />
+    <ClInclude Include="my_def.h" />
+    <ClInclude Include="nrect.h" />
+    <ClInclude Include="num.h" />
+    <ClInclude Include="osc.h" />
+    <ClInclude Include="panel.h" />
+    <ClInclude Include="par.h" />
+    <ClInclude Include="playhead.h" />
+    <ClInclude Include="pn_bottom.h" />
+    <ClInclude Include="pn_menu.h" />
+    <ClInclude Include="proc.h" />
+    <ClInclude Include="reverb.h" />
+    <ClInclude Include="rich_label.h" />
+    <ClInclude Include="rich_textbox.h" />
+    <ClInclude Include="scrollbar.h" />
+    <ClInclude Include="separator.h" />
+    <ClInclude Include="textbox.h" />
+    <ClInclude Include="tile.h" />
+    <ClInclude Include="token.h" />
+    <ClInclude Include="track.h" />
+    <ClInclude Include="ui.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="var.h" />
+    <ClInclude Include="vec2.h" />
+    <ClInclude Include="vec3.h" />
+    <ClInclude Include="vptr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="app_item.cpp" />
+    <ClCompile Include="app_msg.cpp" />
+    <ClCompile Include="app_wv.cpp" />
+    <ClCompile Include="bgr.cpp" />
+    <ClCompile Include="bra.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="checkbox.cpp" />
+    <ClCompile Include="complex.cpp" />
+    <ClCompile Include="control.cpp" />
+    <ClCompile Include="ctrl_list.cpp" />
+    <ClCompile Include="cur.cpp" />
+    <ClCompile Include="dragbar.cpp" />
+    <ClCompile Include="draw_comp.cpp" />
+    <ClCompile Include="draw_geo.cpp" />
+    <ClCompile Include="draw_px_seg.cpp" />
+    <ClCompile Include="draw_str.cpp" />
+    <ClCompile Include="draw_tile.cpp" />
+    <ClCompile Include="droplist.cpp" />
+    <ClCompile Include="drum.cpp" />
+    <ClCompile Include="dvec.cpp" />
+    <ClCompile Include="env.cpp" />
+    <ClCompile Include="expr.cpp" />
+    <ClCompile Include="filter.cpp" />
+    <ClCompile Include="float_panel.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="fpn_about.cpp" />
+    <ClCompile Include="fpn_cmd.cpp" />
+    <ClCompile Include="fpn_fun.cpp" />
+    <ClCompile Include="fpn_global.cpp" />
+    <ClCompile Include="fpn_inst.cpp" />
+    <ClCompile Include="fpn_lang.cpp" />
+    <ClCompile Include="fpn_par.cpp" />
+    <ClCompile Include="fpn_track.cpp" />
+    <ClCompile Include="ft_constant.cpp" />
+    <ClCompile Include="fx.cpp" />
+    <ClCompile Include="inst.cpp" />
+    <ClCompile Include="label.cpp" />
+    <ClCompile Include="lfo.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="nrect.cpp" />
+    <ClCompile Include="num.cpp" />
+    <ClCompile Include="osc.cpp" />
+    <ClCompile Include="panel.cpp" />
+    <ClCompile Include="par.cpp" />
+    <ClCompile Include="playhead.cpp" />
+    <ClCompile Include="pn_bottom.cpp" />
+    <ClCompile Include="pn_menu.cpp" />
+    <ClCompile Include="proc.cpp" />
+    <ClCompile Include="reverb.cpp" />
+    <ClCompile Include="rich_label.cpp" />
+    <ClCompile Include="rich_textbox.cpp" />
+    <ClCompile Include="scrollbar.cpp" />
+    <ClCompile Include="separator.cpp" />
+    <ClCompile Include="textbox.cpp" />
+    <ClCompile Include="tile.cpp" />
+    <ClCompile Include="token.cpp" />
+    <ClCompile Include="track.cpp" />
+    <ClCompile Include="ui.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="var.cpp" />
+    <ClCompile Include="vec2.cpp" />
+    <ClCompile Include="vec3.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9d99614a-521c-4d6d-94c1-a82a3a78345b}</ProjectGuid>
+    <RootNamespace>MusicEditor230729</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4244;4267;26451</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
